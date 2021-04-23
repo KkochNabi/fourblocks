@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "fourblocks.sln",
+    "projects": [
+      "fourblocks.Game\\fourblocks.Game.csproj",
+      "fourblocks.Resources\\fourblocks.Resources.csproj",
+      "fourblocks.iOS\\fourblocks.iOS.csproj"
+    ]
+  }
+}

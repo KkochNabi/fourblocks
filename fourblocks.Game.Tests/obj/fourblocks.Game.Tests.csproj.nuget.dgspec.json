@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Game.Tests\\fourblocks.Game.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Game.Tests\\fourblocks.Game.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Game.Tests\\fourblocks.Game.Tests.csproj",
+        "projectName": "fourblocks.Game.Tests",
+        "projectPath": "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Game.Tests\\fourblocks.Game.Tests.csproj",
+        "packagesPath": "C:\\Users\\realg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Game.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\realg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Game\\fourblocks.Game.csproj": {
+                "projectPath": "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Game\\fourblocks.Game.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Game\\fourblocks.Game.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Game\\fourblocks.Game.csproj",
+        "projectName": "fourblocks.Game",
+        "projectPath": "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Game\\fourblocks.Game.csproj",
+        "packagesPath": "C:\\Users\\realg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Game\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\realg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Resources\\fourblocks.Resources.csproj": {
+                "projectPath": "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Resources\\fourblocks.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "ppy.osu.Framework": {
+              "target": "Package",
+              "version": "[2021.330.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Resources\\fourblocks.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Resources\\fourblocks.Resources.csproj",
+        "projectName": "fourblocks.Resources",
+        "projectPath": "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Resources\\fourblocks.Resources.csproj",
+        "packagesPath": "C:\\Users\\realg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\realg\\RiderProjects\\fourblocks\\fourblocks\\fourblocks.Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\realg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

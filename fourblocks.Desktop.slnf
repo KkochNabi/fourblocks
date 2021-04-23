@@ -1,0 +1,11 @@
+﻿{
+  "solution": {
+    "path": "fourblocks.sln",
+    "projects": [
+      "fourblocks.Desktop\\fourblocks.Desktop.csproj",
+      "fourblocks.Game\\fourblocks.Game.csproj",
+      "fourblocks.Game.Tests\\fourblocks.Game.Tests.csproj",
+      "fourblocks.Resources\\fourblocks.Resources.csproj"
+    ]
+  }
+}

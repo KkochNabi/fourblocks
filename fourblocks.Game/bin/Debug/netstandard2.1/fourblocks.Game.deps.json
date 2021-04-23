@@ -1,0 +1,857 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "fourblocks.Game/1.0.0": {
+        "dependencies": {
+          "fourblocks.Resources": "1.0.0",
+          "ppy.osu.Framework": "2021.330.0"
+        },
+        "runtime": {
+          "fourblocks.Game.dll": {}
+        }
+      },
+      "FFmpeg.AutoGen/4.3.0.1": {
+        "runtime": {
+          "lib/netstandard2.1/FFmpeg.AutoGen.dll": {
+            "assemblyVersion": "4.3.0.1",
+            "fileVersion": "4.3.0.1"
+          }
+        }
+      },
+      "JetBrains.Annotations/2020.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "2020.3.0.0",
+            "fileVersion": "2020.3.0.0"
+          }
+        }
+      },
+      "managed-midi/1.9.14": {
+        "runtime": {
+          "lib/netstandard2.0/Commons.Music.Midi.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "ManagedBass/2.0.4": {
+        "runtime": {
+          "lib/netstandard1.4/ManagedBass.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ManagedBass.Fx/2.0.1": {
+        "dependencies": {
+          "ManagedBass": "2.0.4"
+        },
+        "runtime": {
+          "lib/netstandard1.4/ManagedBass.Fx.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Markdig/0.22.1": {
+        "runtime": {
+          "lib/netstandard2.1/Markdig.dll": {
+            "assemblyVersion": "0.22.1.0",
+            "fileVersion": "0.22.1.0"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.Analyzers/3.0.0": {},
+      "Microsoft.CodeAnalysis.Common/3.9.0": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Analyzers": "3.0.0",
+          "System.Collections.Immutable": "5.0.0",
+          "System.Memory": "4.5.4",
+          "System.Reflection.Metadata": "5.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "System.Text.Encoding.CodePages": "4.5.1",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CodeAnalysis.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.900.21.12420"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/cs/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.CSharp/3.9.0": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Common": "3.9.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CodeAnalysis.CSharp.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.900.21.12420"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Diagnostics.NETCore.Client/0.2.61701": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Diagnostics.NETCore.Client.dll": {
+            "assemblyVersion": "0.2.1.11701",
+            "fileVersion": "0.2.1.11701"
+          }
+        }
+      },
+      "Microsoft.Diagnostics.Runtime/2.0.217201": {
+        "dependencies": {
+          "Microsoft.Diagnostics.NETCore.Client": "0.2.61701",
+          "System.Buffers": "4.5.1",
+          "System.Collections.Immutable": "5.0.0",
+          "System.Memory": "4.5.4",
+          "System.Reflection.Metadata": "5.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Diagnostics.Runtime.dll": {
+            "assemblyVersion": "2.0.4.17201",
+            "fileVersion": "2.0.4.17201"
+          }
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/5.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.421.11815"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "NuGet.Common/5.9.0": {
+        "dependencies": {
+          "NuGet.Frameworks": "5.9.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Common.dll": {
+            "assemblyVersion": "5.9.0.7134",
+            "fileVersion": "5.9.0.7134"
+          }
+        }
+      },
+      "NuGet.Configuration/5.9.0": {
+        "dependencies": {
+          "NuGet.Common": "5.9.0",
+          "System.Security.Cryptography.ProtectedData": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Configuration.dll": {
+            "assemblyVersion": "5.9.0.7134",
+            "fileVersion": "5.9.0.7134"
+          }
+        }
+      },
+      "NuGet.DependencyResolver.Core/5.9.0": {
+        "dependencies": {
+          "NuGet.LibraryModel": "5.9.0",
+          "NuGet.Protocol": "5.9.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NuGet.DependencyResolver.Core.dll": {
+            "assemblyVersion": "5.9.0.7134",
+            "fileVersion": "5.9.0.7134"
+          }
+        }
+      },
+      "NuGet.Frameworks/5.9.0": {
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {
+            "assemblyVersion": "5.9.0.7134",
+            "fileVersion": "5.9.0.7134"
+          }
+        }
+      },
+      "NuGet.LibraryModel/5.9.0": {
+        "dependencies": {
+          "NuGet.Common": "5.9.0",
+          "NuGet.Versioning": "5.9.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NuGet.LibraryModel.dll": {
+            "assemblyVersion": "5.9.0.7134",
+            "fileVersion": "5.9.0.7134"
+          }
+        }
+      },
+      "NuGet.Packaging/5.9.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "NuGet.Configuration": "5.9.0",
+          "NuGet.Versioning": "5.9.0",
+          "System.Security.Cryptography.Cng": "5.0.0",
+          "System.Security.Cryptography.Pkcs": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Packaging.dll": {
+            "assemblyVersion": "5.9.0.7134",
+            "fileVersion": "5.9.0.7134"
+          }
+        }
+      },
+      "NuGet.ProjectModel/5.9.0": {
+        "dependencies": {
+          "NuGet.DependencyResolver.Core": "5.9.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NuGet.ProjectModel.dll": {
+            "assemblyVersion": "5.9.0.7134",
+            "fileVersion": "5.9.0.7134"
+          }
+        }
+      },
+      "NuGet.Protocol/5.9.0": {
+        "dependencies": {
+          "NuGet.Packaging": "5.9.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Protocol.dll": {
+            "assemblyVersion": "5.9.0.7134",
+            "fileVersion": "5.9.0.7134"
+          }
+        }
+      },
+      "NuGet.Versioning/5.9.0": {
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Versioning.dll": {
+            "assemblyVersion": "5.9.0.7134",
+            "fileVersion": "5.9.0.7134"
+          }
+        }
+      },
+      "NUnit/3.13.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/nunit.framework.dll": {
+            "assemblyVersion": "3.13.1.0",
+            "fileVersion": "3.13.1.0"
+          }
+        }
+      },
+      "ppy.osu.Framework/2021.330.0": {
+        "dependencies": {
+          "FFmpeg.AutoGen": "4.3.0.1",
+          "JetBrains.Annotations": "2020.3.0",
+          "ManagedBass": "2.0.4",
+          "ManagedBass.Fx": "2.0.1",
+          "Markdig": "0.22.1",
+          "Microsoft.CodeAnalysis.CSharp": "3.9.0",
+          "Microsoft.Diagnostics.Runtime": "2.0.217201",
+          "Microsoft.Extensions.ObjectPool": "5.0.4",
+          "NUnit": "3.13.1",
+          "Newtonsoft.Json": "13.0.1",
+          "NuGet.ProjectModel": "5.9.0",
+          "SharpFNT": "2.0.0",
+          "SixLabors.ImageSharp": "1.0.3",
+          "StbiSharp": "1.0.13",
+          "managed-midi": "1.9.14",
+          "ppy.SDL2-CS": "1.0.82",
+          "ppy.osuTK.NS20": "1.0.173"
+        },
+        "runtime": {
+          "lib/netstandard2.1/osu.Framework.dll": {
+            "assemblyVersion": "2021.330.0.0",
+            "fileVersion": "2021.330.0.0"
+          }
+        }
+      },
+      "ppy.osuTK.NS20/1.0.173": {
+        "runtime": {
+          "lib/netstandard2.0/osuTK.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "ppy.SDL2-CS/1.0.82": {
+        "runtime": {
+          "lib/netstandard2.0/SDL2-CS.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SharpFNT/2.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/SharpFNT.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/1.0.3": {
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Memory": "4.5.4",
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "StbiSharp/1.0.13": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/StbiSharp.dll": {
+            "assemblyVersion": "1.0.13.0",
+            "fileVersion": "1.0.13.0"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.28619.1"
+          }
+        }
+      },
+      "System.Collections.Immutable/5.0.0": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Formats.Asn1/5.0.0": {
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Formats.Asn1.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "assemblyVersion": "4.0.1.1",
+            "fileVersion": "4.6.28619.1"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.4.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Reflection.Metadata/5.0.0": {
+        "dependencies": {
+          "System.Collections.Immutable": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Security.Cryptography.Cng/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/System.Security.Cryptography.Cng.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Security.Cryptography.Pkcs/5.0.0": {
+        "dependencies": {
+          "System.Formats.Asn1": "5.0.0",
+          "System.Security.Cryptography.Cng": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.27129.4"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "assemblyVersion": "4.2.0.1",
+            "fileVersion": "4.6.28619.1"
+          }
+        }
+      },
+      "fourblocks.Resources/1.0.0": {
+        "runtime": {
+          "fourblocks.Resources.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "fourblocks.Game/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FFmpeg.AutoGen/4.3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-koM5zqdZZHGAVK0faNZgi9HjCrHrMRGaTqmTEbvMSx3YeNIZBd62JQMZjAE0HlQ3NsLnRvXigVJtwRidOnosUw==",
+      "path": "ffmpeg.autogen/4.3.0.1",
+      "hashPath": "ffmpeg.autogen.4.3.0.1.nupkg.sha512"
+    },
+    "JetBrains.Annotations/2020.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FnX06vtxuoZnhZdR6UHt5kJ7HUC/syODfGLnhPDn1x5sXvvepNyCl4jMtPUzJfsPWh7q0Jo+AIYz5xaVbbyikA==",
+      "path": "jetbrains.annotations/2020.3.0",
+      "hashPath": "jetbrains.annotations.2020.3.0.nupkg.sha512"
+    },
+    "managed-midi/1.9.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m5hB1cxnSeNMxxbe0Jb6Gm0JmSZbrXINJFyhPXL6P94hdtP/+cCYPEsFiDOH3i0qjGrq4JfU+wSkRfQHFvlsYQ==",
+      "path": "managed-midi/1.9.14",
+      "hashPath": "managed-midi.1.9.14.nupkg.sha512"
+    },
+    "ManagedBass/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+jpks5wa2CAGsT/nQJiv493+KBNujreMOZ2U19r2qsddIst/TQQiueMODSOLgyncODTBIQM3mGDiCHSXXs7ACg==",
+      "path": "managedbass/2.0.4",
+      "hashPath": "managedbass.2.0.4.nupkg.sha512"
+    },
+    "ManagedBass.Fx/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o5BLgxOz+8SYE8Zt2AKIKLQtxhzukTZOBpFCLwy6Yixoc0sN/AzceAYg6hB951JEYJcYMPwicL34PpluCMLkpQ==",
+      "path": "managedbass.fx/2.0.1",
+      "hashPath": "managedbass.fx.2.0.1.nupkg.sha512"
+    },
+    "Markdig/0.22.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw4Z2yUaMQIVNBVnTrCzvulEzF0TdzNprIMZ0knOB0jnVryjOUHDeyVdwFHbWjHLf84sU6TvxI03U6+jC4UBVA==",
+      "path": "markdig/0.22.1",
+      "hashPath": "markdig.0.22.1.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.Analyzers/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojG5pGAhTPmjxRGTNvuszO3H8XPZqksDwr9xLd4Ae/JBjZZdl6GuoLk7uLMf+o7yl5wO0TAqoWcEKkEWqrZE5g==",
+      "path": "microsoft.codeanalysis.analyzers/3.0.0",
+      "hashPath": "microsoft.codeanalysis.analyzers.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.Common/3.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HiWjF7PNIEngmFg2Xk8cZ/83lRIRkk9v+5ibbY5B7VvjNGdClGAMuWtZER9F5rGRR41VbJLco9ah73jFTh4vPw==",
+      "path": "microsoft.codeanalysis.common/3.9.0",
+      "hashPath": "microsoft.codeanalysis.common.3.9.0.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.CSharp/3.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NTsiK3fnoZGemy4dBHrILwg9rL+jDnOJ7aixFu4EOWM1r6MZMrNCIhT2tO4AmIMdfICLPwj910uZRRLpbMnqHg==",
+      "path": "microsoft.codeanalysis.csharp/3.9.0",
+      "hashPath": "microsoft.codeanalysis.csharp.3.9.0.nupkg.sha512"
+    },
+    "Microsoft.Diagnostics.NETCore.Client/0.2.61701": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/whUqXLkTiUvG+vfSFd77DHHsLZW2HztZt+ACOpuvGyLKoGGN86M8cR1aYfRW6fxXF3SVGMKMswcL485SQEDuQ==",
+      "path": "microsoft.diagnostics.netcore.client/0.2.61701",
+      "hashPath": "microsoft.diagnostics.netcore.client.0.2.61701.nupkg.sha512"
+    },
+    "Microsoft.Diagnostics.Runtime/2.0.217201": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PaduL7RKjNa8pX7mKJh4SOrAl8MLVVld+U6tcvZFF82OMDnn4wSPX+CvtRcIMvdxC6hqIUuueLkAvQzDaEQRrw==",
+      "path": "microsoft.diagnostics.runtime/2.0.217201",
+      "hashPath": "microsoft.diagnostics.runtime.2.0.217201.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ObjectPool/5.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-amTxEqlRQCf0XlpijmNxUwzcNurVIH6fMYwjNLj47tl1tNM8g34iC/vim52Dm6wsgspoZdCwjiOWb0IjhgTfvw==",
+      "path": "microsoft.extensions.objectpool/5.0.4",
+      "hashPath": "microsoft.extensions.objectpool.5.0.4.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "path": "netstandard.library/2.0.0",
+      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "NuGet.Common/5.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zFWYbJBC6KT0LmxrU0e5PNALpKfoINOIx7g8/FXhJug9opOXZqXPIKYgHS2uU1zJPBArRWmhFTWYQlaw2N9Dhg==",
+      "path": "nuget.common/5.9.0",
+      "hashPath": "nuget.common.5.9.0.nupkg.sha512"
+    },
+    "NuGet.Configuration/5.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rt3ZPmSn1v0HYboTPXYjIo8QPx79G3knYMXdiE1/jBnl9Jb8IBaAmap7Qd6KutFJi4iqd64Z/0xFpeVif5C/qw==",
+      "path": "nuget.configuration/5.9.0",
+      "hashPath": "nuget.configuration.5.9.0.nupkg.sha512"
+    },
+    "NuGet.DependencyResolver.Core/5.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-92ohDmKVDb9C4txds9SBuUo3DHULjre6tQ+4n1ED3DpnhIWCrc9eEUyuscZg/DuNaImO3VnZx6HiIFDVRG9A7A==",
+      "path": "nuget.dependencyresolver.core/5.9.0",
+      "hashPath": "nuget.dependencyresolver.core.5.9.0.nupkg.sha512"
+    },
+    "NuGet.Frameworks/5.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hoBDoKAES1G5VKkPGMvAwhGiaRo+qa6muielpnVbVbiwcTdLfQxaNaXN1dV70DRIpfsyNGfc8GXAebkklxte4Q==",
+      "path": "nuget.frameworks/5.9.0",
+      "hashPath": "nuget.frameworks.5.9.0.nupkg.sha512"
+    },
+    "NuGet.LibraryModel/5.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MXuzzGxPjLt7M4p4rx7h6Kl7jhwQaYtpSWLPtGpL1YUXo9XY3ltRfBuR9AHctqZMwj/RWeb1gIqVq7bnBMZVvg==",
+      "path": "nuget.librarymodel/5.9.0",
+      "hashPath": "nuget.librarymodel.5.9.0.nupkg.sha512"
+    },
+    "NuGet.Packaging/5.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f6OiYORAPsfKoZ1JiWMiwHnZomWpt69xEfSz0flVbCHCDP/69FLCpYo3zV9vdM6vW3JrZ8xAXyi1LHML9fjzfQ==",
+      "path": "nuget.packaging/5.9.0",
+      "hashPath": "nuget.packaging.5.9.0.nupkg.sha512"
+    },
+    "NuGet.ProjectModel/5.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+/Wv3oU/wlePCS01TC2hkU7RA9192t14ruy53xMwswuIf44MHdzvAopCgyo2dmsDP+9H7rVTsaZ6/NTJwWQkIQ==",
+      "path": "nuget.projectmodel/5.9.0",
+      "hashPath": "nuget.projectmodel.5.9.0.nupkg.sha512"
+    },
+    "NuGet.Protocol/5.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u47alKAFzs5zV3n9u8SHNsG8LuaU5i+zT/z0MKEWOF5bW3sKdg6U0uENU3hhcqZ9W/H9zhObCu1mW5oGLr/70g==",
+      "path": "nuget.protocol/5.9.0",
+      "hashPath": "nuget.protocol.5.9.0.nupkg.sha512"
+    },
+    "NuGet.Versioning/5.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/K7SkH6PKoKEPrP3DrYqubPoZJtfRdJ9GfKX+Yv7qEW+ep/Jjdr74AyIRNWG9MT2YPG9fld93QX4xumF+kr/Mg==",
+      "path": "nuget.versioning/5.9.0",
+      "hashPath": "nuget.versioning.5.9.0.nupkg.sha512"
+    },
+    "NUnit/3.13.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vWBvrSelmTYwqHWvO3dA63z7cOpaFR/3nJ9MMVLBkWeaWa7oiglPPm5g1h96B4i2XXqjFexxhR5MyMjmIJYPfg==",
+      "path": "nunit/3.13.1",
+      "hashPath": "nunit.3.13.1.nupkg.sha512"
+    },
+    "ppy.osu.Framework/2021.330.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tVazFD1LhbuvaezAL9lPJEXRY4jPYg7mIa0OQy0WeeJL5u59J0a4zJ61R3QKypOaYpCQKF8c9lSZsg74vEmMwg==",
+      "path": "ppy.osu.framework/2021.330.0",
+      "hashPath": "ppy.osu.framework.2021.330.0.nupkg.sha512"
+    },
+    "ppy.osuTK.NS20/1.0.173": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GhRFjR11o+nPfVow4npBcSQJDTgQAEAC9vRWqRZHPwXwZO6fKcOOG3dKRx+3xbapdQXO9owAboIssB6RUE+dBA==",
+      "path": "ppy.osutk.ns20/1.0.173",
+      "hashPath": "ppy.osutk.ns20.1.0.173.nupkg.sha512"
+    },
+    "ppy.SDL2-CS/1.0.82": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bFqADOpmHENMqs/tysmxhnD3vS+Ka0xDRQJIv4V04Ym5l/brB9opdxNC/NXcmJN2yiTSkkuYZgJ8bxA4ts4jHw==",
+      "path": "ppy.sdl2-cs/1.0.82",
+      "hashPath": "ppy.sdl2-cs.1.0.82.nupkg.sha512"
+    },
+    "SharpFNT/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V+3yfhfbncNFZKnqUmUI+zsTI+SMxB47va4NE9Gxs8yfZfbOYI1T/jz99JZ+ZwpJzPryzm7J9cY9RJU3vTHAUA==",
+      "path": "sharpfnt/2.0.0",
+      "hashPath": "sharpfnt.2.0.0.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oRmZEITad+0tL22ZfAbLps6doDV+Z0/oH0dtXLpIBwn1sgai3QxxDQPjohHiDeUp/CTzRKVrFFbc4ZITnL2UBg==",
+      "path": "sixlabors.imagesharp/1.0.3",
+      "hashPath": "sixlabors.imagesharp.1.0.3.nupkg.sha512"
+    },
+    "StbiSharp/1.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hhq+PYQB8T+sFBHwFnzeNu0rpX9Rcg19Aeotz1u0RQQ4PcOA7oMeokUF7m4hZ/UgE1VhtEdJFnurW0cxNFY+Yg==",
+      "path": "stbisharp/1.0.13",
+      "hashPath": "stbisharp.1.0.13.nupkg.sha512"
+    },
+    "System.Buffers/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
+    },
+    "System.Collections.Immutable/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FXkLXiK0sVVewcso0imKQoOxjoPAj42R8HtjjbSjVPAzwDfzoyoznWxgA3c38LDbN9SJux1xXoXYAhz98j7r2g==",
+      "path": "system.collections.immutable/5.0.0",
+      "hashPath": "system.collections.immutable.5.0.0.nupkg.sha512"
+    },
+    "System.Formats.Asn1/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MTvUIktmemNB+El0Fgw9egyqT9AYSIk6DTJeoDSpc3GIHxHCMo8COqkWT1mptX5tZ1SlQ6HJZ0OsSvMth1c12w==",
+      "path": "system.formats.asn1/5.0.0",
+      "hashPath": "system.formats.asn1.5.0.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "System.Reflection.Metadata/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5NecZgXktdGg34rh1OenY1rFNDCI8xSjFr+Z4OU4cU06AQHUdRnIIEeWENu3Wl4YowbzkymAIMvi3WyK9U53pQ==",
+      "path": "system.reflection.metadata/5.0.0",
+      "hashPath": "system.reflection.metadata.5.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Cng/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jIMXsKn94T9JY7PvPq/tMfqa6GAaHpElRDpmG+SuL+D3+sTw2M8VhnibKnN8Tq+4JqbPJ/f+BwtLeDMEnzAvRg==",
+      "path": "system.security.cryptography.cng/5.0.0",
+      "hashPath": "system.security.cryptography.cng.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9TPLGjBCGKmNvG8pjwPeuYy0SMVmGZRwlTZvyPHDbYv/DRkoeumJdfumaaDNQzVGMEmbWtg07zUpSW9q70IlDQ==",
+      "path": "system.security.cryptography.pkcs/5.0.0",
+      "hashPath": "system.security.cryptography.pkcs.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
+      "path": "system.security.cryptography.protecteddata/4.4.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4J2JQXbftjPMppIHJ7IC+VXQ9XfEagN92vZZNoG12i+zReYlim5dMoXFC1Zzg7tsnKDM7JPo5bYfFK4Jheq44w==",
+      "path": "system.text.encoding.codepages/4.5.1",
+      "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    },
+    "fourblocks.Resources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

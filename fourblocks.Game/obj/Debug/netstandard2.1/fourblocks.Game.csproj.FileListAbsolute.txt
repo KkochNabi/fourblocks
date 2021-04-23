@@ -1,0 +1,12 @@
+C:\Users\realg\RiderProjects\fourblocks\fourblocks\fourblocks.Game\bin\Debug\netstandard2.1\fourblocks.Game.deps.json
+C:\Users\realg\RiderProjects\fourblocks\fourblocks\fourblocks.Game\bin\Debug\netstandard2.1\fourblocks.Game.dll
+C:\Users\realg\RiderProjects\fourblocks\fourblocks\fourblocks.Game\bin\Debug\netstandard2.1\fourblocks.Game.pdb
+C:\Users\realg\RiderProjects\fourblocks\fourblocks\fourblocks.Game\bin\Debug\netstandard2.1\fourblocks.Resources.dll
+C:\Users\realg\RiderProjects\fourblocks\fourblocks\fourblocks.Game\bin\Debug\netstandard2.1\fourblocks.Resources.pdb
+C:\Users\realg\RiderProjects\fourblocks\fourblocks\fourblocks.Game\obj\Debug\netstandard2.1\fourblocks.Game.csprojAssemblyReference.cache
+C:\Users\realg\RiderProjects\fourblocks\fourblocks\fourblocks.Game\obj\Debug\netstandard2.1\fourblocks.Game.AssemblyInfoInputs.cache
+C:\Users\realg\RiderProjects\fourblocks\fourblocks\fourblocks.Game\obj\Debug\netstandard2.1\fourblocks.Game.AssemblyInfo.cs
+C:\Users\realg\RiderProjects\fourblocks\fourblocks\fourblocks.Game\obj\Debug\netstandard2.1\fourblocks.Game.csproj.CoreCompileInputs.cache
+C:\Users\realg\RiderProjects\fourblocks\fourblocks\fourblocks.Game\obj\Debug\netstandard2.1\fourblocks.Game.csproj.CopyComplete
+C:\Users\realg\RiderProjects\fourblocks\fourblocks\fourblocks.Game\obj\Debug\netstandard2.1\fourblocks.Game.dll
+C:\Users\realg\RiderProjects\fourblocks\fourblocks\fourblocks.Game\obj\Debug\netstandard2.1\fourblocks.Game.pdb
