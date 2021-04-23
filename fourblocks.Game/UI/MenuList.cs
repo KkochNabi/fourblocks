@@ -8,16 +8,16 @@ namespace fourblocks.Game.UI
 {
     public class MenuList : Menu
     {
-        private Color4 ItemBackgroundColor;
-        private Color4 ItemBackgroundHoverColor;
+        private readonly Color4 itemBackgroundColor;
+        private readonly Color4 itemBackgroundHoverColor;
 
         public MenuList(Direction direction = Direction.Vertical, bool topLevelMenu = true, Color4 itemBackgroundColor = default, Color4 itemBackgroundHoverColor = default)
             : base(direction, topLevelMenu)
         {
             // osu!framework defaults
             BackgroundColour = Colour4.Blue;
-            ItemBackgroundColor = itemBackgroundColor == default ? FrameworkColour.BlueGreen : itemBackgroundColor;
-            ItemBackgroundHoverColor = itemBackgroundHoverColor == default ? FrameworkColour.Green : itemBackgroundHoverColor;
+            this.itemBackgroundColor = itemBackgroundColor == default ? FrameworkColour.BlueGreen : itemBackgroundColor;
+            this.itemBackgroundHoverColor = itemBackgroundHoverColor == default ? FrameworkColour.Green : itemBackgroundHoverColor;
         }
 
         protected override Menu CreateSubMenu() => new MenuList()
@@ -25,7 +25,7 @@ namespace fourblocks.Game.UI
             Anchor = Direction == Direction.Horizontal ? Anchor.BottomLeft : Anchor.TopRight
         };
 
-        protected override DrawableMenuItem CreateDrawableMenuItem(MenuItem item) => new ModularDrawableMenuItem(item, ItemBackgroundColor, ItemBackgroundHoverColor);
+        protected override DrawableMenuItem CreateDrawableMenuItem(MenuItem item) => new ModularDrawableMenuItem(item, itemBackgroundColor, itemBackgroundHoverColor);
 
         protected override ScrollContainer<Drawable> CreateScrollContainer(Direction direction) => new BasicScrollContainer(direction); // TODO: Add custom method?
 
