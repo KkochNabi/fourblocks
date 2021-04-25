@@ -39,7 +39,7 @@ namespace fourblocks.Game
                     RelativeSizeAxes = Axes.Both
                 },
                 mainMenu,
-                new BasicTextBox()
+                new TextField(Color4.Firebrick, Color4.LightPink, Color4.WhiteSmoke)
                 {
                     Anchor = Anchor.Centre,
                     Origin = Anchor.Centre,
