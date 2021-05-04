@@ -10,11 +10,11 @@ using osuTK.Graphics;
 
 namespace fourblocks.Game
 {
-    public class GameScreen : Screen
+    public class MainMenu : Screen
     {
         private readonly MenuList mainMenu;
 
-        public GameScreen()
+        public MainMenu()
         {
             mainMenu = new MenuList(Direction.Vertical, true, Color4.LightPink, Color4.Firebrick)
             {

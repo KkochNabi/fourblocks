@@ -21,7 +21,7 @@ namespace fourblocks.Game
             base.LoadComplete();
 
             //screenStack.Push(new MainScreen());
-            screenStack.Push(new GameScreen());
+            screenStack.Push(new MainMenu());
         }
     }
 }
